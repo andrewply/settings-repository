@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="native2ascii" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Java\jdk1.8.0_91\bin\native2ascii.exe" />
+      <option name="PARAMETERS" value="-encoding UTF-8 messages_ascii.properties messages.properties" />
+      <option name="WORKING_DIRECTORY" value="D:/Users/Andrew/Desktop/Andrew.CM/Project/AssetManagement/AssetManagement/src/main/resources" />
+    </exec>
+  </tool>
+</toolSet>
