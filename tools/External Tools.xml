@@ -1,9 +1,9 @@
 <toolSet name="External Tools">
-  <tool name="native2ascii" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="native2ascii" description="message_native to message" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$JDKPath$\bin\native2ascii.exe" />
-      <option name="PARAMETERS" value="-encoding UTF-8 $FileName$ $FileNameWithoutExtension$_ascii.$FileExt$" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+      <option name="PARAMETERS" value="-encoding UTF-8 messages_native.properties messages.properties" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/src/main/resources" />
     </exec>
   </tool>
 </toolSet>
